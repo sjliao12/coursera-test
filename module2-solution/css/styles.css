@@ -15,7 +15,7 @@ h1{
 	margin-top:20px;
 	margin-bottom: 50px;
 }
-		
+
 /*      Menu     */
 p{
 	padding:30px 15px 15px 15px;
@@ -26,7 +26,7 @@ p{
 	height: 60%;
 	float:left;
 	margin-bottom:30px;
-
+	/*margin-left:15px;*/
 	overflow:hidden;
 }
 
@@ -38,7 +38,6 @@ p{
 	width: 80px;
 	height: 30px;
 	left: 25%;
-
 	position: relative;
 }
 
@@ -52,7 +51,7 @@ p{
 	left: 25%;
 	position: relative;
 	text-align:center;
-			
+
 }
 
 #p3{
