@@ -1,0 +1,140 @@
+body{
+	font-family: sans-serif;
+	font-weight:bold;
+	margin: 0;
+
+}
+
+.row{
+	width:100%;
+}
+
+#header-nav{
+	background-color: gray;
+	border-radius:0;
+	border: 0;
+
+
+}
+
+.navbar{
+
+	height:100px;
+}
+
+.navbar-brand{
+	padding:15px;
+}
+
+.navbar-brand h1{
+	margin-left:15px;
+	color:black;
+	font-size:2em;
+
+}
+
+.navbar-brand a {
+	text-decoration:none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+/**** Toggle Navigation ****/
+.navbar-toggle{
+	margin-top:30px;
+}
+
+#nav-list{
+	margin-top:100px;
+	margin-right:50%;
+
+}
+
+#nav-list a{
+	text-align:center;
+	width:100%;
+}
+
+#nav-list a:hover{
+	background:yellow;
+
+}
+
+
+/*Button*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid silver;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/*Body*/
+h2{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:30px;
+}
+
+*{
+	box-sizing: border-box;
+}
+p {
+	background-color:gray;
+	padding:10px;
+	font-size:18px;
+	margin: 0 25px 50px 45px;
+	text-align:center;
+
+}
+p span {
+	font-size:15px;
+	color:white;
+
+}
+
+
+
+
+
+/************  Media Quesires  *************/
+/*Desktop*/
+@media(min-width:992px){
+	.navbar-toggle{
+		display:none;
+	}
+
+	#nav-list a{
+		display:none;
+	}
+
+
+}
+
+/*Tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+	.navbar-toggle{
+		display:none;
+	}
+
+	#nav-list a {
+		display:none;
+	}
+
+}
+
+/*Mobile*/
+@media (max-width: 767px){
+	#collapsable-nav a{
+		font-size:1.2em;
+	}
+
+	#collapsable-nav a span{
+		font-size:1em;
+		/*margin-right:5px;*/
+	}
+
+}
