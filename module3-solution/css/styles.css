@@ -120,15 +120,31 @@ section{
 
 
 
+
+
 /************  Media Quesires  *************/
 /*Desktop*/
 @media(min-width:992px){
+/*	.navbar-toggle{
+		display:none;
+	}
 
+	#nav-list a{
+		display:none;
+	}
+*/
 
 }
 
 /*Tablet*/
 @media(min-width: 768px) and (max-width: 991px){
+/*	.navbar-toggle{
+		display:none;
+	}
+
+	#nav-list a {
+		display:none;
+	}*/
 
 }
 
@@ -147,6 +163,7 @@ section{
 
 	#collapsable-nav a span{
 		font-size:1em;
+		/*margin-right:5px;*/
 	}
 
 }
